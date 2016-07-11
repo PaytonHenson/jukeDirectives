@@ -1,10 +1,7 @@
-<album-list albums="albums"></album-list>
-
-<!--
 <div>
-  <h3>Albums</h3>
+  <h4>ALBUMS</h4>
   <div class="row">
-    <div class="col-xs-4" ng-repeat="album in albums">
+    <div ng-repeat="album in albums" class="col-xs-4">
       <a class="thumbnail" ui-sref="album({albumId: album.id})">
         <img ng-src="{{ album.imageUrl }}">
         <div class="caption">
@@ -17,4 +14,4 @@
     </div>
   </div>
 </div>
- -->
+
